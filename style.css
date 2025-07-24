@@ -1,0 +1,68 @@
+body {
+    font-family: 'Segoe UI', 'Arial', sans-serif;
+    background: #c1c1c1;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #242222;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+.mural {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+.postit {
+    width: 240px;
+    min-height: 180px;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px 25px 10px 25px;
+    box-shadow: 2px 6px 14px 0 rgba(60, 40, 10, 0.12), 2px 2px 0 0 #d9d9d9;
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    position: relative;
+    transition: transform 0.13s;
+    word-break: break-word;
+}
+.postit:hover {
+    transform: scale(1.04) rotate(-1deg);
+    z-index: 10;
+}
+.amarelo {
+    background: #fff9c4;
+    border: 1.5px solid #fbe870;
+}
+.rosa {
+    background: #ffd1dc;
+    border: 1.5px solid #ffb0c2;
+}
+.azul {
+    background: #b2ebf2;
+    border: 1.5px solid #80deea;
+}
+/* Cores adicionais para mais post-its */
+.preto {
+    background: #858d85;
+    border: 1.5px solid #ffffff;
+}
+.laranja {
+    background: #ffecb3;
+    border: 1.5px solid #ffd180;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #030303;
+    color: #ffe5b4;
+    margin-top: 2rem;
+    border-radius: 0 0 12px 12px;
+}
