@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', 'Arial', sans-serif;
-    background: #c1c1c1;
+    background: url('img/fundo.jpeg') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
@@ -41,8 +42,8 @@ main {
     background: #fff9c4;
     border: 1.5px solid #fbe870;
 }
-.rosa {
-    background: #ffd1dc;
+.vermelho {
+    background: #dd2751;
     border: 1.5px solid #ffb0c2;
 }
 .azul {
